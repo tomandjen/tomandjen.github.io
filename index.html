@@ -10,6 +10,8 @@
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
     <link rel="stylesheet" href="css/global.css">
     <!-- Add the slick-theme.css if you want default styling -->
+    <!-- <link href="https://addtocalendar.com/atc/1.5/atc-style-blue.css" rel="stylesheet" type="text/css"> -->
+
     <script type="text/javascript" src="javascript/slick.js"></script>
 
   </head>
@@ -46,7 +48,21 @@
           <h2 class="gold">
             September 2<sup>nd</sup>, 2018
           </h2>
-          <a class="button googlecalendar" target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MTJxN2RnYzc4YmRuaWk4ajBidGxzc2dmYXIgYS50c2FuZ2VyQG0&tmsrc=a.tsanger%40gmail.com">add to google calendar</a>
+          <!-- <a class="button googlecalendar" target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MTJxN2RnYzc4YmRuaWk4ajBidGxzc2dmYXIgYS50c2FuZ2VyQG0&tmsrc=a.tsanger%40gmail.com">add to google calendar</a> -->
+
+          <span class="addtocalendar atc-style-blue">
+              <var class="atc_event">
+                  <var class="atc_date_start">2018-09-02 10:00:00</var>
+                  <var class="atc_timezone">America/Vancouver</var>
+                  <var class="atc_date_end">2018-09-02 20:00:00</var>
+                  <var class="atc_title">Thomas & Jenny Save the Date</var>
+                  <var class="atc_description"></var>
+                  <var class="atc_location">Vancouver</var>
+                  <var class="atc_organizer">Thomas & Jenny</var>
+                  <var class="atc_organizer_email">thomas@gmail.com</var>
+              </var>
+          </span>
+
         </div>
       </div>
       <div class="container">
@@ -116,6 +132,15 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+</script>
+
+<script type="text/javascript">(function () {
+        if (window.addtocalendar)if(typeof window.addtocalendar.start == "function")return;
+        if (window.ifaddtocalendar == undefined) { window.ifaddtocalendar = 1;
+            var d = document, s = d.createElement('script'), g = 'getElementsByTagName';
+            s.type = 'text/javascript';s.charset = 'UTF-8';s.async = true;
+            s.src = ('https:' == window.location.protocol ? 'https' : 'http')+'://addtocalendar.com/atc/1.5/atc.min.js';
+            var h = d[g]('body')[0];h.appendChild(s); }})();
 </script>
 
   </body>
