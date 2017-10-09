@@ -3,7 +3,11 @@
 @import url('https://fonts.googleapis.com/css?family=Muli');
 
 body {
+  /*background-color: #2E334A;
+  cursor: url("../image/cursor.png");*/
+  background-image: url("../image/bg5.jpg");
   background-color: #2E334A;
+  background-size: cover;
 }
 
 p {
@@ -45,12 +49,6 @@ p {
   color: white;
 }
 
-.splash-bg {
-  background-image: url("../image/bg4.jpg");
-  background-color: #2E334A;
-  background-size: cover;
-}
-
 .googlecalendar {
   /*margin: 30px 0 0 0;
   background-color: #e2c675;
@@ -59,6 +57,32 @@ p {
   border-radius: 0px;*/
 }
 
+.nav-link {
+  font-family: 'Cormorant Garamond', serif;
+  letter-spacing: 0.1em;
+  color: #e2c675;
+  font-size: 20px;
+  list-style: none;
+  padding-left: 30px;
+}
+
+.nav-link:hover {
+  font-family: 'Cormorant Garamond', serif;
+  letter-spacing: 0.1em;
+  color: #af995b;
+  list-style: none;
+  padding-left: 30px;
+}
+
+.navsbar {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.nav-li {
+  list-style: none;
+  margin-top: 18px;
+}
 
 .logo {
   width: 100px;
@@ -326,4 +350,8 @@ sup {
 .atc-style-blue .atcb-item.hover,
 .atc-style-blue .atcb-item:hover {
     background: #af995b;
+}
+
+.custom {
+  cursor: url("./images/cursor.png"), auto;
 }
