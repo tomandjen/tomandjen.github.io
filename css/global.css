@@ -47,9 +47,51 @@ p {
   font-family: 'Muli', sans-serif;
 }
 
+#proposal {
+    background-image: url("../image/proposal.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+#details {
+  /*position: relative;
+  margin: auto 0;
+  width: 100%; /* for IE 6 */
+  background-image: url("../image/details2.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.details-p {
+  color: black;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 500;
+  /*position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);*/
+}
+
+.bold{
+  color: black;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 600;
+  /*position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);*/
+}
+
+.details-bg {
+  background-color: white;
+  padding: 90px 25px 100px 25px;
+  max-width: 750px;
+  margin: 80px auto 0px auto;
+}
+
 .proposal {
-  padding: 170px 25px 100px 25px;
-  max-width: 800px;
+  padding: 90px 25px 100px 25px;
+  max-width: 750px;
   color: white;
 }
 
@@ -67,6 +109,15 @@ p {
 
 .p-link:hover {
   color: #af995b;
+  border-bottom: 1px solid #af995b;
+}
+
+.p-link-dark {
+  color: black;
+}
+
+.p-link-dark:hover {
+  color: black;
   border-bottom: 1px solid #af995b;
 }
 
@@ -108,6 +159,17 @@ p {
   /*// font-family: 'Halant', serif;
   // font-family: 'Ovo', serif;*/
   font-family: 'Cormorant Garamond', serif;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+}
+
+.dark-gold {
+  color: #af995b;
+  font-size: 22px;
+  /*// font-family: 'Halant', serif;
+  // font-family: 'Ovo', serif;*/
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 600;
   letter-spacing: 0.1em;
 }
 
