@@ -47,6 +47,12 @@ p {
   font-family: 'Muli', sans-serif;
 }
 
+@media (max-width: 600px) {
+  .subtitle-tomjenny {
+    width: 270px;
+  }
+}
+
 #proposal {
     background-image: url("../image/bg-proposal.jpg");
     background-repeat: no-repeat;
