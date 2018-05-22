@@ -84,6 +84,10 @@ p {
   transform: translate(-50%, -50%);*/
 }
 
+.white {
+  color: white !important;
+}
+
 .bold{
   color: black;
   font-family: 'Cormorant Garamond', serif;
@@ -101,6 +105,15 @@ p {
   padding: 90px 25px 100px 25px;
   max-width: 750px;
   margin: 80px auto 0px auto;
+}
+
+.details-bg-two {
+  background-image: url(../image/creampaper.png);
+  background-repeat: repeat;
+  background-color: white;
+  padding: 63px 25px 0px 25px;
+  max-width: 750px;
+  margin: 60px auto 0px auto;
 }
 
 @media (max-width: 720px) {
@@ -458,4 +471,17 @@ sup {
 
 .custom {
   cursor: url("./images/cursor.png"), auto;
+}
+
+#rsvp {
+  margin-top: 20px;
+}
+
+.rsvp-footer {
+  padding: 20px 0 50px 0;
+}
+
+.rsvp-footer span {
+  color: #af995b;
+  font-weight: 600;
 }
