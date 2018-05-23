@@ -19,7 +19,7 @@ p {
 }
 
 .hero-tomjenny {
-  padding: 220px 0 240px 0;
+  padding: 150px 0 240px 0;
 }
 
 .center {
@@ -44,6 +44,38 @@ p {
   width: 370px;
   margin: 9px auto;
   font-size: 18px;
+  font-family: 'Muli', sans-serif;
+}
+
+.title-tomjenny-two {
+  // font-family: 'PT Serif', serif;
+  font-size: 35px;
+  color: #E2C675;
+  // font-family: 'Halant', serif;
+  font-family: 'Ovo', serif;
+  letter-spacing: 10px;
+  color: white;
+}
+
+.title-tomjenny-two span {
+  // font-family: 'PT Serif', serif;
+  font-size: 35px;
+  color: #E2C675;
+  // font-family: 'Halant', serif;
+  font-family: 'Ovo', serif;
+  letter-spacing: 10px;
+  color: #E2C675;
+  font-weight: 400;
+}
+
+.subtitle-tomjenny-two {
+  letter-spacing: 0.4em;
+  color: #E2C675;
+  /* border: 1px #e2c675 solid;
+  padding: 15px 15px 15px 15px;
+  width: 370px; */
+  margin: 9px auto;
+  font-size: 12px;
   font-family: 'Muli', sans-serif;
 }
 
@@ -171,6 +203,10 @@ p {
   padding-left: 30px;
 }
 
+.navbar-brand {
+  flex-wrap: wrap;
+}
+
 .nav-link:hover {
   font-family: 'Cormorant Garamond', serif;
   letter-spacing: 0.1em;
@@ -180,18 +216,52 @@ p {
 }
 
 .navsbar {
-  padding-top: 20px;
-  padding-left: 20px;
+  padding: 20px;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  max-width: 90%;
+  margin: 0 auto;
+}
+@media (max-width: 600px) {
+  .navsbar {
+    padding-left: 0;
+  }
 }
 
 .nav-li {
   list-style: none;
   margin-top: 18px;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: auto;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+@media (max-width: 600px) {
+  .menu {
+    width: 100%;
+  }
+  .menu-link {
+    width: 100%;
+  }
+}
+
+.menu-link {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .logo {
   width: 100px;
-  padding: 15px 0 0 15px;
+  padding: 15px 0;
+  /* height: auto; */
 }
 
 .gold {
@@ -484,4 +554,39 @@ sup {
 .rsvp-footer span {
   color: #af995b;
   font-weight: 600;
+}
+
+.rsvp-button {
+  background-color: #e2c675;
+  padding: 10px 20px;
+  letter-spacing: 2px;
+  color: #2E334A;
+}
+.rsvp-button:hover{
+  background-color: #af995b;
+  color: #2E334A;
+}
+
+.wedding-party {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.party-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.groom .bridge{
+
+}
+
+.person{
+  margin: 15px 15px 15px 0;
+}
+
+.party-container img {
+  width: 400px;
+  height: auto;
 }
