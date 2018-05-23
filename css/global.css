@@ -10,6 +10,10 @@ body {
   background-size: cover;
 }
 
+html {
+  background-color: #2E334A;
+}
+
 p {
     font-size: 18px;
     font-family: 'Muli', sans-serif;
@@ -19,7 +23,7 @@ p {
 }
 
 .hero-tomjenny {
-  padding: 150px 0 240px 0;
+  padding: 100px 0 150px 0;
 }
 
 .center {
@@ -49,7 +53,7 @@ p {
 
 .title-tomjenny-two {
   // font-family: 'PT Serif', serif;
-  font-size: 35px;
+  font-size: 32px;
   color: #E2C675;
   // font-family: 'Halant', serif;
   font-family: 'Ovo', serif;
@@ -134,9 +138,9 @@ p {
   background-image: url("../image/creampaper.png");
   background-repeat:repeat;
   background-color: white;
-  padding: 90px 25px 100px 25px;
+  padding: 60px 25px 60px 25px;
   max-width: 750px;
-  margin: 80px auto 0px auto;
+  margin: 20px auto 50px auto;
 }
 
 .details-bg-two {
